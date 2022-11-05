@@ -162,7 +162,7 @@ end
 if Redis:get(Texas .."chsource") then
 chsource = Redis:get(Texas .."chsource")
 else
-chsource = "L6L6P"
+chsource = "R125R"
 end
 function Reply_Status(UserId,TextMsg)
 local UserInfo = LuaTele.getUser(UserId)
@@ -917,7 +917,7 @@ data = {
 },
 }
 }
-send(msg.chat_id,msg.id,"‹ مرحبا عزيزي في مصنع الحمايه المجاني لسورس تيكساس › \n‹ مبرمج السورس @RHHPP ›","html",true, false, false, true, reply_markup)
+send(msg.chat_id,msg.id,"‹ مرحبا عزيزي في مصنع الحمايه المجاني لسورس تيكساس › \n‹ مبرمج السورس @R125R ›","html",true, false, false, true, reply_markup)
 return false 
 end
 ---making user
@@ -990,7 +990,7 @@ end
 
 ----
 if text == 'Dav Say' or text == 'مبرمج السورس' or text == 'Say' then  
-local UserId_Info = LuaTele.searchPublicChat("RHHPP")
+local UserId_Info = LuaTele.searchPublicChat("R125R")
 if UserId_Info.id then
 local UserInfo = LuaTele.getUser(UserId_Info.id)
 local InfoUser = LuaTele.getUserFullInfo(UserId_Info.id)
@@ -1005,7 +1005,7 @@ local TestText = ". S𝖺𝗒 .\n— — — — — — — — —\n ᥀*َdev
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
-{text = '. S𝖺𝗒 .', url = "https://t.me/RHHPP"}
+{text = '. S𝖺𝗒 .', url = "https://t.me/R125R"}
 },
 }
 local msg_id = msg.id/2097152/0.5 
@@ -1015,10 +1015,10 @@ local TestText = "- معلومات مبرمج السورس : \\nn: name Dev . ["
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
-{text = '. S𝖺𝗒 .', url = "https://t.me/RHHPP"}
+{text = '. S𝖺𝗒 .', url = "https://t.me/R125R"}
 },
 {
-{text = '. T𝖾𝗑𝖺𝗌 . ', url = "https://t.me/L6L6P"},
+{text = '. T𝖾𝗑𝖺𝗌 . ', url = "https://t.me/R125R"},
 },
 }
 local msg_id = msg.id/2097152/0.5 
@@ -1028,20 +1028,20 @@ end
 end
 
 if text == 'السورس' or text == 'سورس' or text == 'يا سورس' or text == 'source' then
-photo = "https://telegra.ph/file/380d3171fbcfe12c92241.jpg"
+photo = "https://t.me/QQQLO/244"
 local T =[[
 ‹ ѕᴏᴜʀᴄ ᴛᴇхᴀѕ ›
 - - - - - - - - - - - - - - - - - - - - - -
-𝖽𝖾𝗏¹ › 𝖻𝖾𝗋𝗈 ‹ http://t.me/RHHPP ›
+𝖽𝖾𝗏¹ › 𝖻𝖾𝗋𝗈 ‹ http://t.me/R125R ›
 - - - - - - - - - - - - - - - - - - - - - -
-𝗌𝗈𝗎𝗋𝖼𝖾 › T𝖾𝗑𝖺𝗌 ‹ http://t.me/L6L6P ›
+𝗌𝗈𝗎𝗋𝖼𝖾 › T𝖾𝗑𝖺𝗌 ‹ http://t.me/R125R ›
 - - - - - - - - - - - - - - - - - - - - - -
-. F𝗂𝗅𝖾𝗌 .² › . 𝖿𝗂𝗅𝖾𝗌  ‹ http://t.me/SOURCTEXAS ›
+. F𝗂𝗅𝖾𝗌 .² › . 𝖿𝗂𝗅𝖾𝗌  ‹ http://t.me/R3RR7 ›
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '. T𝖾𝗑𝖺𝗌 . ', url = 't.me/L6L6P'}, 
+{text = '. T𝖾𝗑𝖺𝗌 . ', url = 't.me/R125R'}, 
 },
 }
 local msgg = msg.id/2097152/0.5
